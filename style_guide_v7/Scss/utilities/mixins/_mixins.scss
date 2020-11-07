@@ -8,3 +8,13 @@
     text-transform: uppercase;
     border-radius: 5px;
 }
+
+@mixin btn-lighten($color) {
+    &{
+        transition: background-color 1s ease-in-out;
+    }
+
+    &:hover {
+        background-color: lighten($color, 15%);
+    }
+}

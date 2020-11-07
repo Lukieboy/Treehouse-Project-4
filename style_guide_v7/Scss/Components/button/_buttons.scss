@@ -9,22 +9,27 @@
   @include btn;
   &.default {
     background-color: $color-default;
+    @include btn-lighten($color-default);
   }
   
   &.error {
     background-color: $color-error;
+    @include btn-lighten($color-error);
   }
   
   &.info {
     background-color: $color-info;
+    @include btn-lighten($color-info);
   }
   
   &.success {
     background-color: $color-success;
+    @include btn-lighten($color-success);
   }
   
   &.warning {
     background-color: $color-warning;
+    @include btn-lighten($color-warning);
   }
 
 }

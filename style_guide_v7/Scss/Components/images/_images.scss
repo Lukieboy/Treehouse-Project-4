@@ -8,8 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    max-width: 100%; 
-    max-height: 100%;
+    max-width: $full-width; 
+    max-height: $full-width;
   }
   
   .img-frame {
@@ -17,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    max-width: 100%;
+    max-width: $full-width;
     padding: 13px;
     border: 1px solid $border-color;
   }

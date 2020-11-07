@@ -4,7 +4,7 @@
 @import '../../utilities/variables/variables';
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $font-family-primary;
     color: $font-color;
     box-sizing: border-box;
   }

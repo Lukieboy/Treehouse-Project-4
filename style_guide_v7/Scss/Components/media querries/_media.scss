@@ -5,7 +5,7 @@
 /* ============================================= */
 @import '../../utilities/variables/variables';
 
-@media (min-width: $break-w) {
+@media (min-width: $break) {
 
     .container {
       max-width: 1400px;
@@ -26,9 +26,9 @@
     
     [class^=col] {
       display: flex;
-      justify-content: center;
+      justify-content: $align-center;
       margin-top: 0;
-      align-items: center;
+      align-items: $align-center;
     }
     
     [class^=col] + [class^=col] {
@@ -44,7 +44,7 @@
     .nav {
       flex-direction: row;
       justify-content: flex-end;
-      align-items: center;
+      align-items: $align-center;
     }
     
     .nav-link {
